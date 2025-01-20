@@ -1,0 +1,82 @@
+ @import'./varibale';
+.banner{
+    #banner-img{
+        background-image: url(../images/projects-banner.jpg);
+        background-repeat: no-repeat;
+        background-position:50% 10%;
+        height: 250px;
+    }
+    .overlay{
+        position: absolute;
+        background-color: rgba(65,155,155,0.5);
+        top:0;
+        right:16px;
+        height:100%;
+        width: 100%;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+    .title1{
+        font-weight: bold;
+        color: #fff;
+    }
+}
+.our-works{
+    .custom-btn-2{
+        color: #363636;
+        background-color: #fff;
+        border: none;
+        border-radius: 1px;
+        font-weight: bold;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        &:hover,
+        &:focus{
+            color: #fff;
+            background-color:$main-color;
+            border: none;
+
+        }
+    }
+}
+//gallary works this projects
+
+  .btn,button{
+    &:hover,
+    &:focus{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+  }
+  
+  #image-gallery{
+
+    .modal-footer{
+      display: block;
+  } 
+
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .project-details{
+    .card{
+        .card-title{
+            font-weight: bold;
+            color: $main-color;
+        }
+    }
+  }
+  @media (max-width:576) {
+    .project-details{
+        .thumb{
+            margin: auto;
+        }
+    }
+
+    
+  }
